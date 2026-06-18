@@ -152,7 +152,7 @@
     "published": true,
     "featured": true,
     "liveDemoUrl": "",
-    "githubUrl": "https://github.com/lequanghaia1/mb-bank-openapi-connector",
+    "githubUrl": "https://github.com/Dagain1007/mb-bank-openapi-connector",
     "displayOrder": 3,
     "fullDescription": "<p>Đây&nbsp;là&nbsp;một&nbsp;thư&nbsp;viện&nbsp;(library)&nbsp;Node.js&nbsp;giúp&nbsp;kết&nbsp;nối&nbsp;trực&nbsp;tiếp&nbsp;với&nbsp;API&nbsp;của&nbsp;MB&nbsp;Bank.&nbsp;Điểm&nbsp;đáng&nbsp;giá&nbsp;nhất&nbsp;của&nbsp;thư&nbsp;viện&nbsp;này&nbsp;là&nbsp;tích&nbsp;hợp&nbsp;sẵn&nbsp;mô&nbsp;hình&nbsp;mạng&nbsp;nơ-ron&nbsp;(ONNX)&nbsp;để&nbsp;tự&nbsp;động&nbsp;nhận&nbsp;diện&nbsp;và&nbsp;giải&nbsp;mã&nbsp;Captcha&nbsp;hình&nbsp;ảnh&nbsp;ngay&nbsp;tại&nbsp;local&nbsp;với&nbsp;độ&nbsp;chính&nbsp;xác&nbsp;99%.&nbsp;Nhờ&nbsp;đó,&nbsp;bạn&nbsp;có&nbsp;thể&nbsp;dễ&nbsp;dàng&nbsp;thiết&nbsp;lập&nbsp;các&nbsp;hệ&nbsp;thống&nbsp;tự&nbsp;động&nbsp;chốt&nbsp;đơn&nbsp;(Auto-Payment)&nbsp;cho&nbsp;Bot&nbsp;hoặc&nbsp;Website.</p>",
     "fullDescriptionVi": "<p>Đây&nbsp;là&nbsp;một&nbsp;thư&nbsp;viện&nbsp;(library)&nbsp;Node.js&nbsp;giúp&nbsp;kết&nbsp;nối&nbsp;trực&nbsp;tiếp&nbsp;với&nbsp;API&nbsp;của&nbsp;MB&nbsp;Bank.&nbsp;Điểm&nbsp;đáng&nbsp;giá&nbsp;nhất&nbsp;của&nbsp;thư&nbsp;viện&nbsp;này&nbsp;là&nbsp;tích&nbsp;hợp&nbsp;sẵn&nbsp;mô&nbsp;hình&nbsp;mạng&nbsp;nơ-ron&nbsp;(ONNX)&nbsp;để&nbsp;tự&nbsp;động&nbsp;nhận&nbsp;diện&nbsp;và&nbsp;giải&nbsp;mã&nbsp;Captcha&nbsp;hình&nbsp;ảnh&nbsp;ngay&nbsp;tại&nbsp;local&nbsp;với&nbsp;độ&nbsp;chính&nbsp;xác&nbsp;99%.&nbsp;Nhờ&nbsp;đó,&nbsp;bạn&nbsp;có&nbsp;thể&nbsp;dễ&nbsp;dàng&nbsp;thiết&nbsp;lập&nbsp;các&nbsp;hệ&nbsp;thống&nbsp;tự&nbsp;động&nbsp;chốt&nbsp;đơn&nbsp;(Auto-Payment)&nbsp;cho&nbsp;Bot&nbsp;hoặc&nbsp;Website.</p>",
