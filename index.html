@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Đỗ Hải Đăng | Portfolio - Automation & Web Developer</title>
+  <meta name="description" content="Portfolio của Đỗ Hải Đăng - chuyên gia tự động hóa, MMO tool builder, fullstack web developer.">
+  <meta name="keywords" content="Đỗ Hải Đăng, dohaidang, automation, telegram bot, fullstack, web, mmo, tool builder">
+  <meta name="author" content="Đỗ Hải Đăng">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="avatar.jpg">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-mode">
+  
+  <!-- Glowing Background Overlays -->
+  <div class="glow-container">
+    <div class="glow-orb orb-1"></div>
+    <div class="glow-orb orb-2"></div>
+    <div class="glow-orb orb-3"></div>
+  </div>
+
+  <!-- Header & Navigation -->
+  <header class="site-header">
+    <div class="nav-container">
+      <a href="#" class="logo-group">
+        <img src="avatar.jpg" alt="Đỗ Hải Đăng Avatar" class="logo-img">
+        <span class="logo-text">Do Hai Dang</span>
+      </a>
+      
+      <nav class="main-nav">
+        <ul>
+          <li><a href="#hero" class="nav-link active" data-vi="Trang chủ" data-en="Home">Trang chủ</a></li>
+          <li><a href="#about" class="nav-link" data-vi="Giới thiệu" data-en="About">Giới thiệu</a></li>
+          <li><a href="#expertise" class="nav-link" data-vi="Dịch vụ" data-en="Expertise">Dịch vụ</a></li>
+          <li><a href="#projects" class="nav-link" data-vi="Dự án" data-en="Projects">Dự án</a></li>
+          <li><a href="#tech-stack" class="nav-link" data-vi="Công nghệ" data-en="Tech">Công nghệ</a></li>
+          <li><a href="#contact" class="nav-link btn-contact-nav" data-vi="Liên hệ" data-en="Contact">Liên hệ</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <button id="lang-toggle" class="lang-btn" aria-label="Switch language">
+          <span class="lang-text">EN</span>
+        </button>
+        <button id="mobile-menu-btn" class="mobile-menu-btn" aria-label="Toggle mobile menu">
+          <span class="menu-icon"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Sidebar Menu -->
+  <div class="mobile-menu-overlay" id="mobile-menu">
+    <div class="mobile-menu-content">
+      <ul class="mobile-nav-links">
+        <li><a href="#hero" class="mobile-link" data-vi="Trang chủ" data-en="Home">Trang chủ</a></li>
+        <li><a href="#about" class="mobile-link" data-vi="Giới thiệu" data-en="About">Giới thiệu</a></li>
+        <li><a href="#expertise" class="mobile-link" data-vi="Dịch vụ" data-en="Expertise">Dịch vụ</a></li>
+        <li><a href="#projects" class="mobile-link" data-vi="Dự án" data-en="Projects">Dự án</a></li>
+        <li><a href="#tech-stack" class="mobile-link" data-vi="Công nghệ" data-en="Tech">Công nghệ</a></li>
+        <li><a href="#contact" class="mobile-link" data-vi="Liên hệ" data-en="Contact">Liên hệ</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+      <div class="grid-container hero-grid">
+        <div class="hero-left">
+          <div class="status-badge">
+            <span class="status-dot"></span>
+            <span class="status-text" data-vi="Sẵn sàng nhận dự án và hợp tác" data-en="Available for new projects & collaborations">Sẵn sàng nhận dự án và hợp tác</span>
+          </div>
+          
+          <h1 class="hero-title">
+            <span class="gradient-text">MMO, Tool Builder</span>
+            <br>
+            <span class="white-text">& Developer</span>
+          </h1>
+          
+          <p class="hero-subtitle" data-vi="Mình xây dựng các hệ thống, tool MMO tự động, bot Telegram tích hợp API, và các nền tảng số khác có thể vận hành ngoài đời. Ngoài ra mình còn chạy quảng cáo Facebook, sáng tạo nội dung,..." data-en="I build automated MMO systems, custom Telegram bots with API integrations, and digital platforms that operate in the real world. I also run Facebook Ads, create content, and scale traffic.">
+            Mình xây dựng các hệ thống, tool MMO tự động, bot Telegram tích hợp API, và các nền tảng số khác có thể vận hành ngoài đời. Ngoài ra mình còn chạy quảng cáo Facebook, sáng tạo nội dung,...
+          </p>
+          
+          <div class="hero-ctas">
+            <a href="#projects" class="btn btn-primary" data-vi="Xem dự án" data-en="View Projects">Xem dự án</a>
+            <a href="#contact" class="btn btn-secondary" data-vi="Liên hệ" data-en="Contact Me">Liên hệ</a>
+          </div>
+
+          <div class="hero-tags">
+            <span class="tech-badge">Coding</span>
+            <span class="tech-badge">MMO Tools</span>
+            <span class="tech-badge">Telegram Bots</span>
+            <span class="tech-badge">Content Creator</span>
+            <span class="tech-badge">Facebook Ads</span>
+          </div>
+        </div>
+
+        <div class="hero-right">
+          <!-- Premium Floating Terminal -->
+          <div class="terminal-wrapper">
+            <div class="terminal-header">
+              <div class="terminal-buttons">
+                <span class="terminal-btn btn-close"></span>
+                <span class="terminal-btn btn-min"></span>
+                <span class="terminal-btn btn-max"></span>
+              </div>
+              <span class="terminal-title">dohaidang@portfolio:~</span>
+            </div>
+            <div class="terminal-body" id="terminal-screen">
+              <!-- Animated terminal content will go here via JavaScript -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services / Expertise Section -->
+    <section id="expertise" class="section-container border-top">
+      <div class="section-header">
+        <span class="section-label">01 / WORK</span>
+        <h2 class="section-title" data-vi="Những mảng mình xây dựng" data-en="What I Build">Những mảng mình xây dựng</h2>
+        <p class="section-desc" data-vi="Không chỉ riêng viết code. Mình còn xây các hệ thống, tool MMO và nền tảng số có thể vận hành ngoài đời thật - từ backend, tự động hóa đến tối ưu tăng trưởng." data-en="Beyond just writing code. I build complete digital platforms, automation systems, and MMO workflows that run robustly in production - from backend to growth.">
+          Không chỉ riêng viết code. Mình còn xây các hệ thống, tool MMO và nền tảng số có thể vận hành ngoài đời thật - từ backend, tự động hóa đến tối ưu tăng trưởng.
+        </p>
+      </div>
+
+      <div class="grid-container cols-4">
+        <!-- Card 1 -->
+        <div class="expertise-card">
+          <div class="card-icon">&lt;/&gt;</div>
+          <h3 class="card-title" data-vi="Hệ thống & kỹ thuật" data-en="Systems & Engineering">Hệ thống & kỹ thuật</h3>
+          <p class="card-text" data-vi="Backend, API, dashboard quản trị, bot Telegram, quản lý cơ sở dữ liệu và xử lý các logic vận hành thực tế." data-en="Backend APIs, management dashboards, custom Telegram bots, database handling, and real-world operational logic.">
+            Backend, API, dashboard quản trị, bot Telegram, quản lý cơ sở dữ liệu và xử lý các logic vận hành thực tế.
+          </p>
+        </div>
+        <!-- Card 2 -->
+        <div class="expertise-card">
+          <div class="card-icon">⚡</div>
+          <h3 class="card-title" data-vi="Tự động hóa & thanh toán" data-en="Automation & Payments">Tự động hóa & thanh toán</h3>
+          <p class="card-text" data-vi="Tự động hóa quy trình bán sản phẩm số, đồng bộ ngân hàng, xử lý giao dịch tự động 24/7 và giao hàng nhanh." data-en="Automating digital sales, automated bank transfer reconciliation, 24/7 payment flow, and instant product delivery.">
+            Tự động hóa quy trình bán sản phẩm số, đồng bộ ngân hàng, xử lý giao dịch tự động 24/7 và giao hàng nhanh.
+          </p>
+        </div>
+        <!-- Card 3 -->
+        <div class="expertise-card">
+          <div class="card-icon">🚀</div>
+          <h3 class="card-title" data-vi="Kinh doanh & Tăng trưởng" data-en="Business & Growth">Kinh doanh & Tăng trưởng</h3>
+          <p class="card-text" data-vi="Xây dựng phễu bán hàng, tối ưu hóa tỷ lệ chuyển đổi, quảng cáo Facebook thực chiến và mở rộng hệ thống đại lý." data-en="Designing marketing funnels, conversion optimization, performance Facebook Ads, and affiliate system setups.">
+            Xây dựng phễu bán hàng, tối ưu hóa tỷ lệ chuyển đổi, quảng cáo Facebook thực chiến và mở rộng hệ thống đại lý.
+          </p>
+        </div>
+        <!-- Card 4 -->
+        <div class="expertise-card">
+          <div class="card-icon">#</div>
+          <h3 class="card-title" data-vi="Nội dung & Cộng đồng" data-en="Content & Community">Nội dung & Cộng đồng</h3>
+          <p class="card-text" data-vi="Phát triển kênh nội dung số, xây dựng hệ thống kéo traffic tự nhiên và giữ chân người dùng trong cộng đồng." data-en="Developing digital content channels, organic traffic generation systems, and retaining users in localized groups.">
+            Phát triển kênh nội dung số, xây dựng hệ thống kéo traffic tự nhiên và giữ chân người dùng trong cộng đồng.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Operational Workflow Section -->
+    <section class="section-container bg-darker overflow-hidden relative">
+      <div class="bg-pattern-overlay"></div>
+      <div class="grid-container cols-2 items-center">
+        <div>
+          <span class="section-label">02 / SYSTEMS</span>
+          <h2 class="section-title text-large" data-vi="Từ ý tưởng đến vận hành thực tế" data-en="From Concept to Production">Từ ý tưởng đến vận hành thực tế</h2>
+          <p class="section-desc max-w-none" data-vi="Mình không chỉ viết mã nguồn. Mình thiết kế, triển khai, vận hành và tối ưu hóa toàn diện vòng đời sản phẩm kỹ thuật số của bạn để thu về hiệu quả tài chính và số lượng giao dịch thật." data-en="I don't just write code. I design, deploy, operate, and continuously optimize the lifecycle of your digital products, focusing on real transactions and robust automation.">
+            Mình không chỉ viết mã nguồn. Mình thiết kế, triển khai, vận hành và tối ưu hóa toàn diện vòng đời sản phẩm kỹ thuật số của bạn để thu về hiệu quả tài chính và số lượng giao dịch thật.
+          </p>
+          
+          <div class="workflow-steps">
+            <div class="step-item">
+              <span class="step-num">01</span>
+              <div class="step-content">
+                <h4 data-vi="Xây dựng (Build)" data-en="Build">Xây dựng (Build)</h4>
+                <p data-vi="Viết code sạch, tối ưu cơ sở dữ liệu, viết API và các webhook tự động." data-en="Writing clean code, database optimization, backend APIs, and webhook integration.">Viết code sạch, tối ưu cơ sở dữ liệu, viết API và các webhook tự động.</p>
+              </div>
+            </div>
+            <div class="step-item">
+              <span class="step-num">02</span>
+              <div class="step-content">
+                <h4 data-vi="Vận hành (Operate)" data-en="Operate">Vận hành (Operate)</h4>
+                <p data-vi="Cấu hình máy chủ VPS, Nginx, bảo mật Cloudflare, giám sát tiến trình bằng PM2." data-en="VPS server setup, Nginx reverse proxy, Cloudflare protection, and process monitoring via PM2.">Cấu hình máy chủ VPS, Nginx, bảo mật Cloudflare, giám sát tiến trình bằng PM2.</p>
+              </div>
+            </div>
+            <div class="step-item">
+              <span class="step-num">03</span>
+              <div class="step-content">
+                <h4 data-vi="Mở rộng (Scale)" data-en="Scale">Mở rộng (Scale)</h4>
+                <p data-vi="Thiết lập cổng thanh toán, tối ưu phễu người dùng, thu hút traffic tự động và ads." data-en="Configuring automated payments, funnels, driving traffic organically, and setting up ads.">Thiết lập cổng thanh toán, tối ưu phễu người dùng, thu hút traffic tự động và ads.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="relative">
+          <!-- Decorative Graphic Panel mimicking modern dashboard metrics -->
+          <div class="visual-panel glass">
+            <div class="panel-header">
+              <span class="dot red"></span>
+              <span class="dot yellow"></span>
+              <span class="dot green"></span>
+              <span class="panel-title-text">Dashboard_Metrics.json</span>
+            </div>
+            <div class="panel-content">
+              <div class="metric-row">
+                <span class="metric-label" data-vi="Hệ thống tự động hóa" data-en="Automation System">Hệ thống tự động hóa</span>
+                <span class="metric-val text-green">Online [99.99%]</span>
+              </div>
+              <div class="progress-bar-container">
+                <div class="progress-bar" style="width: 100%;"></div>
+              </div>
+              <div class="metric-grid">
+                <div class="metric-box">
+                  <span class="box-lbl" data-vi="Giao dịch/Giờ" data-en="Txn/Hr">Giao dịch/Giờ</span>
+                  <span class="box-val">421</span>
+                </div>
+                <div class="metric-box">
+                  <span class="box-lbl" data-vi="Thời gian phản hồi" data-en="Avg Response">Thời gian phản hồi</span>
+                  <span class="box-val text-cyan">84ms</span>
+                </div>
+              </div>
+              <div class="code-preview">
+                <code><span class="code-key">const</span> handler = <span class="code-func">async</span> () => {<br>&nbsp;&nbsp;<span class="code-key">await</span> <span class="code-func">verifyPayment</span>();<br>&nbsp;&nbsp;<span class="code-key">await</span> <span class="code-func">deliverProduct</span>();<br>&nbsp;&nbsp;<span class="code-key">return</span> { status: <span class="code-str">"success"</span> };<br>}</code>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="section-container">
+      <div class="grid-container cols-2 gap-large items-center">
+        <div class="about-left-image">
+          <div class="image-wrapper glow-border">
+            <img src="avatar.jpg" alt="Đỗ Hải Đăng" class="about-avatar">
+          </div>
+          <div class="about-brief">
+            <span class="about-label" data-vi="Về mình" data-en="About me">Về mình</span>
+            <h2 class="about-name">Đỗ Hải Đăng</h2>
+            <p class="about-title" data-vi="Automation Builder & Fullstack Developer" data-en="Automation Builder & Fullstack Developer">Automation Builder & Fullstack Developer</p>
+          </div>
+        </div>
+
+        <div class="about-right-text">
+          <p class="about-paragraph" data-vi="Mình là Đỗ Hải Đăng - một builder theo hướng thực chiến, tập trung vào việc xây dựng những hệ thống có thể vận hành ngoài đời thay vì chỉ dừng lại ở mức demo hoặc các dự án trưng bày." data-en="I am Do Hai Dang - a practical, result-driven builder specializing in building systems that run in production rather than simple demos or exhibition projects.">
+            Mình là Đỗ Hải Đăng - một builder theo hướng thực chiến, tập trung vào việc xây dựng những hệ thống có thể vận hành ngoài đời thay vì chỉ dừng lại ở mức demo hoặc các dự án trưng bày.
+          </p>
+          <p class="about-paragraph" data-vi="Mình quan tâm nhiều tới các bài toán xoay quanh tự động hóa (automation), thương mại số và hạ tầng tăng trưởng: từ Telegram bot, dashboard quản trị, hệ thống bán sản phẩm số, luồng xử lý thanh toán tự động, API phân phối đại lý cho tới content, quảng cáo và xây dựng cộng đồng người dùng." data-en="I solve challenges surrounding automation, digital commerce, and growth infrastructure: Telegram bots, management dashboards, digital product distribution networks, automated bank reconciliation APIs, reseller setups, copywriting, advertising, and community building.">
+            Mình quan tâm nhiều tới các bài toán xoay quanh tự động hóa (automation), thương mại số và hạ tầng tăng trưởng: từ Telegram bot, dashboard quản trị, hệ thống bán sản phẩm số, luồng xử lý thanh toán tự động, API phân phối đại lý cho tới content, quảng cáo và xây dựng cộng đồng người dùng.
+          </p>
+          <p class="about-paragraph" data-vi="Công việc của mình nằm ở giao điểm giữa kỹ thuật, sản phẩm và kinh doanh. Mình thích thiết kế những sản phẩm có người dùng thực, mang lại dòng tiền thực tế và có khả năng chịu tải cao dựa trên nhu cầu vận hành lâu dài." data-en="My work lives at the intersection of engineering, product design, and business logic. I enjoy creating platforms that acquire real users, handle real financial transactions, and remain highly scalable.">
+            Công việc của mình nằm ở giao điểm giữa kỹ thuật, sản phẩm và kinh doanh. Mình thích thiết kế những sản phẩm có người dùng thực, mang lại dòng tiền thực tế và có khả năng chịu tải cao dựa trên nhu cầu vận hành lâu dài.
+          </p>
+
+          <div class="about-focus-grid">
+            <div class="focus-card">
+              <h4 data-vi="Tư duy thực chiến" data-en="Production Mindset">Tư duy thực chiến</h4>
+              <p data-vi="Code chạy thật, xử lý lỗi tốt, có lưu nhật ký log và hệ thống bảo mật." data-en="Production-ready code, robust error handling, detailed logs, and solid security.">Code chạy thật, xử lý lỗi tốt, có lưu nhật ký log và hệ thống bảo mật.</p>
+            </div>
+            <div class="focus-card">
+              <h4 data-vi="Tự động hóa 100%" data-en="Zero Manual Overhead">Tự động hóa 100%</h4>
+              <p data-vi="Tối giản hóa quy trình thủ công của doanh nghiệp thành các đoạn script chạy ngầm." data-en="Replacing slow human tasks with automated background scripts.">Tối giản hóa quy trình thủ công của doanh nghiệp thành các đoạn script chạy ngầm.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Selected Projects Section -->
+    <section id="projects" class="section-container bg-darker">
+      <div class="section-header">
+        <span class="section-label">03 / SELECTED WORK</span>
+        <h2 class="section-title"><span data-vi="Dự án" data-en="Selected">Dự án</span> <span class="gradient-text" data-vi="tiêu biểu" data-en="Work">tiêu biểu</span></h2>
+        <p class="section-desc" data-vi="Một số sản phẩm, dự án tự động hóa và các hệ thống mình đã thiết kế, lập trình và vận hành hiệu quả." data-en="Explore some of the automated tools, web applications, and integrations that I have built, deployed, and scaled.">
+          Một số sản phẩm, dự án tự động hóa và các hệ thống mình đã thiết kế, lập trình và vận hành hiệu quả.
+        </p>
+      </div>
+
+      <!-- Category Filter Tabs -->
+      <div class="project-filters">
+        <button class="filter-tab active" data-filter="all" data-vi="Tất cả" data-en="All">Tất cả</button>
+        <button class="filter-tab" data-filter="automation" data-vi="Tự động hóa" data-en="Automation">Tự động hóa</button>
+        <button class="filter-tab" data-filter="web" data-vi="Website & API" data-en="Web & API">Website & API</button>
+        <button class="filter-tab" data-filter="payments" data-vi="Thanh toán" data-en="Payments">Thanh toán</button>
+        <button class="filter-tab" data-filter="growth" data-vi="Tăng trưởng" data-en="Growth">Tăng trưởng</button>
+        <button class="filter-tab" data-filter="doan" data-vi="Đồ án & Bài tập" data-en="School Projects">Đồ án & Bài tập</button>
+      </div>
+
+      <!-- Projects Grid -->
+      <div class="grid-container cols-3 project-grid" id="project-list">
+        <!-- Loaded dynamically from projects.json -->
+      </div>
+    </section>
+
+    <!-- Technology Stack Section -->
+    <section id="tech-stack" class="section-container">
+      <div class="text-center mb-12">
+        <span class="section-label" data-vi="Công nghệ" data-en="Technology">Công nghệ</span>
+        <h2 class="text-3xl sm:text-4xl font-bold mt-4 mb-4" data-vi="Ngôn ngữ & Công cụ" data-en="Languages & Tools">Ngôn ngữ & Công cụ</h2>
+        <p class="text-zinc-500 max-w-2xl mx-auto" data-vi="Các công nghệ cốt lõi mình thường xuyên sử dụng để xây dựng hệ thống chạy thực tế." data-en="The core technology stack that I rely on for building robust production applications.">
+          Các công nghệ cốt lõi mình thường xuyên sử dụng để xây dựng hệ thống chạy thực tế.
+        </p>
+      </div>
+
+      <div class="tech-grid">
+        <div class="tech-card-item">
+          <span class="tech-card-icon py">Py</span>
+          <span class="tech-card-name">Python</span>
+        </div>
+        <div class="tech-card-item">
+          <span class="tech-card-icon js">JS</span>
+          <span class="tech-card-name">JavaScript</span>
+        </div>
+        <div class="tech-card-item">
+          <span class="tech-card-icon ts">TS</span>
+          <span class="tech-card-name">TypeScript</span>
+        </div>
+        <div class="tech-card-item">
+          <span class="tech-card-icon node">Node</span>
+          <span class="tech-card-name">Node.js</span>
+        </div>
+        <div class="tech-card-item">
+          <span class="tech-card-icon next">Next</span>
+          <span class="tech-card-name">Next.js</span>
+        </div>
+        <div class="tech-card-item">
+          <span class="tech-card-icon db">DB</span>
+          <span class="tech-card-name">MongoDB/SQL</span>
+        </div>
+        <div class="tech-card-item">
+          <span class="tech-card-icon docker">Doc</span>
+          <span class="tech-card-name">Docker</span>
+        </div>
+        <div class="tech-card-item">
+          <span class="tech-card-icon nginx">Nginx</span>
+          <span class="tech-card-name">Nginx</span>
+        </div>
+        <div class="tech-card-item">
+          <span class="tech-card-icon cf">CF</span>
+          <span class="tech-card-name">Cloudflare</span>
+        </div>
+        <div class="tech-card-item">
+          <span class="tech-card-icon pm2">PM2</span>
+          <span class="tech-card-name">PM2</span>
+        </div>
+        <div class="tech-card-item">
+          <span class="tech-card-icon fb">Ads</span>
+          <span class="tech-card-name">Meta Ads</span>
+        </div>
+        <div class="tech-card-item">
+          <span class="tech-card-icon git">Git</span>
+          <span class="tech-card-name">Git Control</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Achievements / Proof / Stats Section -->
+    <section class="section-container border-top">
+      <div class="grid-container cols-4 stats-grid">
+        <div class="stat-card">
+          <span class="stat-number">24/7</span>
+          <h4 class="stat-title" data-vi="Tư duy tự động" data-en="Automation Mindset">Tư duy tự động</h4>
+          <p class="stat-desc" data-vi="Thiết kế hệ thống tối ưu hóa hiệu năng và chạy tự động ổn định." data-en="Designing architectures engineered for zero human intervention.">Thiết kế hệ thống tối ưu hóa hiệu năng và chạy tự động ổn định.</p>
+        </div>
+        <div class="stat-card">
+          <span class="stat-number">Multi</span>
+          <h4 class="stat-title" data-vi="Kỹ năng đa dạng" data-en="Multi-Disciplinary">Kỹ năng đa dạng</h4>
+          <p class="stat-desc" data-vi="Kết hợp linh hoạt kỹ thuật, quảng cáo, phễu chuyển đổi và content." data-en="Bridging technical development, ads, funnels, and copywriting.">Kết hợp linh hoạt kỹ thuật, quảng cáo, phễu chuyển đổi và content.</p>
+        </div>
+        <div class="stat-card">
+          <span class="stat-number">Real</span>
+          <h4 class="stat-title" data-vi="Khách hàng thực" data-en="Real Transactions">Khách hàng thực</h4>
+          <p class="stat-desc" data-vi="Giải quyết bài toán luồng thanh toán và giao dịch thực tế." data-en="Resolving operational bank reconciliation and user validation.">Giải quyết bài toán luồng thanh toán và giao dịch thực tế.</p>
+        </div>
+        <div class="stat-card">
+          <span class="stat-number">Self</span>
+          <h4 class="stat-title" data-vi="Tự vận hành hạ tầng" data-en="Self-Hosted Infra">Tự vận hành hạ tầng</h4>
+          <p class="stat-desc" data-vi="Tự cấu hình VPS, proxy, tối ưu hóa băng thông, chi phí vận hành." data-en="Managing servers, CDN, reverse proxies, and cost-efficient architectures.">Tự cấu hình VPS, proxy, tối ưu hóa băng thông, chi phí vận hành.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section-container bg-darker">
+      <div class="max-width-800 text-center mb-12">
+        <span class="section-label">04 / CONTACT</span>
+        <h2 class="text-3xl sm:text-4xl font-bold mt-4 mb-4" data-vi="Bắt đầu dự án của bạn?" data-en="Have a Project in Mind?">Bắt đầu dự án của bạn?</h2>
+        <p class="text-zinc-500 max-w-2xl mx-auto" data-vi="Nếu bạn cần một hệ thống tự động hóa, bot Telegram, dashboard, API hoặc muốn tối ưu phễu kinh doanh sản phẩm số, hãy gửi tin nhắn cho mình." data-en="If you need a payment reconciliation webhook, a custom Telegram utility bot, admin dashboard, API or want to optimize a digital product funnel, get in touch.">
+          Nếu bạn cần một hệ thống tự động hóa, bot Telegram, dashboard, API hoặc muốn tối ưu phễu kinh doanh sản phẩm số, hãy gửi tin nhắn cho mình.
+        </p>
+      </div>
+
+      <div class="max-width-800">
+        <!-- Social Buttons Grid -->
+        <div class="social-grid">
+          <a href="https://t.me/lactrongcodon" target="_blank" rel="noopener noreferrer" class="social-btn telegram-btn">
+            <span class="social-icon">TG</span>
+            <span>Telegram</span>
+          </a>
+          <a href="https://www.facebook.com/ohaiang.788681/" target="_blank" rel="noopener noreferrer" class="social-btn facebook-btn">
+            <span class="social-icon">FB</span>
+            <span>Facebook</span>
+          </a>
+          <a href="mailto:lequanghaia1@gmail.com" class="social-btn email-btn">
+            <span class="social-icon">EM</span>
+            <span>Email</span>
+          </a>
+          <a href="https://github.com/lequanghaia1" target="_blank" rel="noopener noreferrer" class="social-btn github-btn">
+            <span class="social-icon">GH</span>
+            <span>GitHub</span>
+          </a>
+        </div>
+
+        <!-- Glassmorphic Form -->
+        <div class="glass-form-wrapper">
+          <form id="contact-form" class="contact-form">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="form-name" data-vi="Tên của bạn" data-en="Your Name">Tên của bạn</label>
+                <input type="text" id="form-name" required placeholder="Hải Đăng">
+              </div>
+              <div class="form-group">
+                <label for="form-email" data-vi="Email / Cách liên hệ" data-en="Email / Contact Info">Email / Cách liên hệ</label>
+                <input type="text" id="form-email" required placeholder="name@example.com / Zalo...">
+              </div>
+            </div>
+            
+            <div class="form-group">
+              <label for="form-category" data-vi="Loại dự án cần làm" data-en="Project Category">Loại dự án cần làm</label>
+              <select id="form-category">
+                <option value="automation" data-vi="Tự động hóa (Automation)" data-en="Automation">Tự động hóa (Automation)</option>
+                <option value="web" data-vi="Thiết kế Web / API" data-en="Web / API Development">Thiết kế Web / API</option>
+                <option value="telegram" data-vi="Bot Telegram" data-en="Telegram Bot Integration">Bot Telegram</option>
+                <option value="payment" data-vi="Tích hợp Thanh toán" data-en="Payment Reconciliation">Tích hợp Thanh toán</option>
+                <option value="other" data-vi="Khác" data-en="Other Services">Khác</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="form-message" data-vi="Nội dung dự án" data-en="Project Details">Nội dung dự án</label>
+              <textarea id="form-message" required rows="5" placeholder="Tôi cần thiết kế một hệ thống tự động hóa..."></textarea>
+            </div>
+
+            <div class="form-submit-row">
+              <span id="form-status" class="form-status"></span>
+              <button type="submit" class="btn btn-primary" id="btn-submit" data-vi="Gửi tin nhắn" data-en="Send Message">Gửi tin nhắn</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-grid">
+        <div class="footer-col-main">
+          <div class="logo-group mb-4">
+            <img src="avatar.jpg" alt="Đỗ Hải Đăng Avatar" class="logo-img">
+            <span class="logo-text">Do Hai Dang</span>
+          </div>
+          <p class="footer-desc" data-vi="Automation Builder & Fullstack Developer. Vận hành giải pháp tự động hóa thật, thanh toán đồng bộ, quảng cáo tối ưu và nội dung viral." data-en="Automation Builder & Fullstack Developer. Delivering real payment integration, system scripts, scalable infrastructures, and organic traffic growth.">
+            Automation Builder & Fullstack Developer. Vận hành giải pháp tự động hóa thật, thanh toán đồng bộ, quảng cáo tối ưu và nội dung viral.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h4 data-vi="Liên kết nhanh" data-en="Quick Links">Liên kết nhanh</h4>
+          <ul>
+            <li><a href="#hero" data-vi="Trang chủ" data-en="Home">Trang chủ</a></li>
+            <li><a href="#about" data-vi="Giới thiệu" data-en="About">Giới thiệu</a></li>
+            <li><a href="#projects" data-vi="Dự án" data-en="Projects">Dự án</a></li>
+            <li><a href="#contact" data-vi="Liên hệ" data-en="Contact">Liên hệ</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4 data-vi="Kết nối" data-en="Connect">Kết nối</h4>
+          <ul>
+            <li><a href="https://t.me/lactrongcodon" target="_blank" rel="noopener noreferrer">Telegram</a></li>
+            <li><a href="https://www.facebook.com/ohaiang.788681/" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+            <li><a href="mailto:lequanghaia1@gmail.com">Email</a></li>
+            <li><a href="https://github.com/lequanghaia1" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="copyright">© 2026 Do Hai Dang. <span data-vi="Bảo lưu mọi quyền." data-en="All rights reserved.">Bảo lưu mọi quyền.</span></p>
+        <p class="footer-quote" data-vi="Hãy là người trẻ nhất trong bất kỳ căn phòng nào mà bạn bước vào!" data-en="Be the youngest in every room you walk into!">Hãy là người trẻ nhất trong bất kỳ căn phòng nào mà bạn bước vào!</p>
+      </div>
+    </div>
+  </footer>
+
+  
+  <!-- Project Detail Modal -->
+  <div id="project-modal" class="modal-overlay">
+    <div class="modal-content">
+      <button class="modal-close" id="modal-close-btn">&times;</button>
+      <div class="modal-body">
+        <div class="modal-header">
+          <span class="modal-badge" id="modal-badge">Category</span>
+          <span class="modal-status" id="modal-status">Status</span>
+        </div>
+        <h2 class="modal-title" id="modal-title">Project Title</h2>
+        <p class="modal-subtitle" id="modal-subtitle">Short description goes here</p>
+        
+        <div class="modal-meta">
+          <div class="meta-item" id="modal-role-container" style="display:none;">
+            <strong data-vi="Vai trò:" data-en="Role:">Vai trò:</strong>
+            <span id="modal-role"></span>
+          </div>
+          <div class="meta-item" id="modal-tech-container" style="display:none;">
+            <strong data-vi="Công nghệ:" data-en="Tech Stack:">Công nghệ:</strong>
+            <div class="modal-tags" id="modal-tech-tags"></div>
+          </div>
+          <div class="meta-item" id="modal-links-container" style="display:none;">
+            <strong data-vi="Liên kết:" data-en="Links:">Liên kết:</strong>
+            <div class="modal-links" id="modal-links-buttons"></div>
+          </div>
+        </div>
+
+        <hr class="modal-divider">
+
+        <div class="modal-html-content" id="modal-html-content">
+          <!-- Full report HTML content (bilingual contentVi / contentEn) -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
